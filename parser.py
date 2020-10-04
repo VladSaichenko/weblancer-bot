@@ -5,7 +5,7 @@ import json
 from bs4 import BeautifulSoup
 
 
-with open('data.json') as file:
+with open('main_data.json') as file:
     data = json.load(file)
 
 URL = 'https://www.weblancer.net/jobs/'
