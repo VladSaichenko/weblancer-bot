@@ -4,7 +4,7 @@ import requests
 from parser import get_new_jobs
 
 URL = 'https://api.telegram.org/bot1146299123:AAHfQi6E8fabgO-NRMi--yU3gnP_C5rdT7g/sendMessage?parse_mode=HTML'
-with open('main_data.json') as file:
+with open('data.json') as file:
     data = json.load(file)
     TOKEN = data['token']
     CHAT_ID = data['chat_id']
