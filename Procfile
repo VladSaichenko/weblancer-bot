@@ -1,1 +1,1 @@
-web: python3 weblancer_bot.py
+worker: python3 weblancer_bot.py
